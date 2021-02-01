@@ -78,7 +78,12 @@ with open(args.output, "w", encoding="utf-8") as outfile:
     for inputfilename in args.input:
         mb = mailbox.mbox(inputfilename)
 
-        for _, msg in mb.iteritems():
+        for key in mb.iterkeys():
+
+            try:
+                msg = mb.get_message(key)
+            except:
+                continue       # skip failing messages
 
             # see filter.py for the definition of this filter,
             # which you can define yourself, if you want
