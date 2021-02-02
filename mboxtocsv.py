@@ -1,3 +1,14 @@
+# 
+#    Version:  0.1.0  2/1/21
+#
+#    License:  CC BY-NC-SA 4.0, https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+#    Graeme Williams
+#    carryonwilliams@gmail.com
+#
+#  See the README for instructions about how to use this command
+#  
+
 import mailbox
 import argparse
 
