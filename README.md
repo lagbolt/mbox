@@ -26,7 +26,7 @@ The first command will convert the input to text and write it to the output file
 
 mboxtocsv takes a _list_ of mbox files specified by the -i option (e.g., -i one.mbox two.mbox) and writes an Excel-compatible .csv file specified by the -o option.
 
-Only the messages for which the messagefilter function in filter.py returns True will be included in the output.  You should be able to define whatever logic you want using the utility functions included in filter.py alond with 'and', 'or', 'not' and abundant parentheses.
+Only the messages for which the messagefilter function in filter.py returns True will be included in the output.  You should be able to define whatever logic you want using the utility functions included in filter.py along with 'and', 'or', 'not' and abundant parentheses.
 
 Only the fields specified by the -f option (e.g., -f Subject Date) are written to the output, plus, if the -b option is included, the message body.
 
